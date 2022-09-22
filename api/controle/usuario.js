@@ -1,6 +1,6 @@
 'use strict'
 
-var usuario = require('../modelos/usuarios');
+var Usuario = require('../modelos/usuario');
 
 function inicio(req, res) {
     res.status(200).send({
